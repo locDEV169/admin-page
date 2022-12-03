@@ -11,12 +11,12 @@
 */
 import { Switch, Route, Redirect } from "react-router-dom";
 import Home from "./pages/home-page/Home";
-import Tables from "./pages/Tables";
-import Billing from "./pages/Billing";
-import Rtl from "./pages/Rtl";
-import Profile from "./pages/Profile";
-import SignUp from "./pages/SignUp";
-import SignIn from "./pages/SignIn";
+import Tables from "./pages/table-page/Tables";
+import Billing from "./pages/billing-page/Billing";
+import Rtl from "./pages/rtl-page/Rtl";
+import Profile from "./pages/profile-page/Profile";
+import SignUp from "./pages/signup-page/SignUp";
+import SignIn from "./pages/login-page/SignIn";
 import Main from "./components/layout/Main";
 import "antd/dist/antd.css";
 import "./assets/styles/main.css";
